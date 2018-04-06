@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/tms.css">
+
+  </head>
+  <body>
+    <header>
+        로그인 페이지
+    </header>
+    <br>
+    <section>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="exampleInputName2">사원번호</label>
+      <input type="text" class="form-control" id="exampleInputName2" placeholder="사원번호를 입력해주세요.">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleInputEmail2">비밀번호</label>
+      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="비밀번호를 입력해주세요.">
+    </div>
+    <button onclick="location.href='list.html'" id="bt1" type="button" class="btn btn-default">로그인</button>
+    <div>
+    <br><br>
+    <div id="f2">
+    <p>비밀번호를 잊으셨나요?</p>
+
+    </div>
+
+  </form>
+  </section>
+    <!-- Button trigger modal -->
+<button id="bt2" type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">비밀번호 찾기</button>
+</button>
+<!-- Modal -->
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">비밀번호를 찾습니다.</h4>
+      </div>
+      <div class="modal-body">사원번호를 입력해주세요.
+        <p><input type="text" value=" "> &nbsp<button onclick="info()">확인</button></p>
+        <p id="#pp"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"><a href="index.html">확인</a></button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function info(){
+  alert('비밀번호는 1234입니다.')
+}
+</script>
+<footer>
+  <br>
+  <small>copyright&copy; All rights reserved.</small>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>직원 추가</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../css/tms.css">
+  <script src="../js/tms.js"></script>
+</head>
+
+<body>
+  <nav>
+    <h4>관리자님 로그인중</h4>
+    <ul class="nlist">
+      <li><a href="index.html">로그아웃</a></li>
+      <li><a href="list.html">사원목록</a></li>
+      <li><a href="insert.html">사원등록</a></li>
+        <br><br>
+    </ul>
+  </nav>
+  <section>
+  <form>
+  <div class="form-group">
+    <p>사원번호: &nbsp<input type="text"></p>
+  </div>
+  <div class="form-group">
+    <p>비밀번호: &nbsp<input type="password"></p>
+  </div>
+  <div class="form-group">
+    <p>사원명:&nbsp&nbsp&nbsp&nbsp<input type="text"></p>
+  </div>
+  <div class="form-group">
+    <p>부서명: &nbsp&nbsp&nbsp&nbsp<input type="text"></p>
+  </div>
+  <div class="form-group">
+    <p>입사날짜: &nbsp<input type="text" id="calendar"></p>
+  </div>
+  <div class="form-group">
+    <p>연봉: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"></p>
+  </div>
+  <div class="form-group">
+    <p>이직횟수: &nbsp<input type="text"></p>
+  </div>
+  <div class="form-group">
+    <p>가족사항:&nbsp<input type="text"></p>
+  </div>
+  <div class="in1">
+    <br>
+  </div>
+    <ul id="in2">
+    <li>
+      <button type="button" class="btn btn-default">
+       <a href="list.html" style="text-decoration: none">등록</a></button>
+      </li>
+      <li>
+      <button type="reset" class="btn btn-default">다시작성</button>
+      </li>
+      </li>
+      <button type="button" class="btn btn-default">
+      <a href="detail.html" style="text-decoration: none">목록</a></button>
+    </li>
+    </ul>
+  </form>
+</section>
+
+<footer>
+  <br>
+  <small>copyright&copy; All rights reserved.</small>
+</footer>
+</body>
+</html>

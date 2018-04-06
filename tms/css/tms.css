@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+  footer{text-align: center;}
+  header{background: #88f599; text-align: center; padding: 25px; font-size: 30px; font-weight: bold;}
+  nav{text-align: center;}
+  *{margin: 0; padding: 0;}
+  .btn{background: #eaece8;}
+  h1{margin:0px; padding: 20px;
+      text-align: center; font-weight: bold; background-color: #b6e6ae;}
+  p{font-weight: bold;}
+
+
+  table{text-align: center;}
+  table tr th{text-align: center;}
+
+  h4{text-align: right;}
+
+  #myModalLabel{text-align: left;}
+  .modal-footer a{color: #fff}
+  .modal-footer button:nth-child(1){background: #3e6fcf}
+
+  #bt1{background: #b6c4d9;}
+  #bt2{background: #9ed263;}
+
+  .in1 li{list-style: none; float: left;}
+  #in2 button{ margin-left: 20px; width: 100px;}
+  #in2 button{color: #2a83ec}
+
+  .detail1 button{background: #e6dcdc; border: 0px; margin-right: 13px; float: right;}
+  .detail1 li{float: right; list-style: none;}
+  li{list-style: none; float: left;}
+
+  #mmm{text-align: right;}
+  .active{background: #8fc3c6;}
+
+  .nlist li a{color: #000;}
+  .nlist li{float: right; width: 10%; list-style: none;
+    background-color: #f4b9ed; border-left: 1px solid #000}
+
+  #update1 button{ margin-left: 20px; width: 100px; background: #cfd9da}
+  #update1 button a{color: #000;}
+
+  #insert a{text-decoration: none;}

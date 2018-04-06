@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>직원상세 페이지</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/tms.css">
+
+</head>
+<body>
+  <h1>직원 상세 페이지</h1>
+  <nav>
+    <h4>관리자님 로그인중</h4>
+    <ul class="nlist">
+      <li><a href="index.html">로그아웃</a></li>
+      <li><a href="list.html">사원목록</a></li>
+      <li><a href="insert.html">사원등록</a></li>
+      <br><br>
+    </ul>
+  </nav>
+  <br>
+  <div class="table-responsive">
+  <table class="table table-striped table-hover table-condensed">
+    <thead>
+      <tr class="mycolor">
+        <th>#</th>
+        <th>사번</th>
+        <th>사원명</th>
+        <th>부서명</th>
+        <th>입사날짜</th>
+        <th>연봉</th>
+        <th>이직횟수</th>
+        <th>가족사항</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>004</td>
+        <td>파이리</td>
+        <td>화력개발</td>
+        <td>2011.10.22</td>
+        <td>5000만원</td>
+        <td>2번</td>
+        <td>독신</td>
+      </tr>
+
+    </tbody>
+  </table>
+  <br>
+   <ul class="detail1">
+    <li>
+      <button class="btn btn-default">
+        <a href="list.html" style="text-decoration: none">목록</a></button>
+    </li>
+    <li>
+      <button class="btn btn-default" onclick="mm()"><a href="#">삭제</a></button>
+    <li>
+      <button type="submit" class="btn btn-default">
+        <a href="update.html" style="text-decoration: none">수정</a></button>
+    </li>
+   </ul>
+
+<footer>
+ <br><br><br>
+ <small>copyright&copy; All rights reserved.</small>
+</footer>
+
+  <script>
+    function mm(){confirm("정말 삭제하시겠습니까?");
+  }
+  </script>
+
+</body>
+</html>
